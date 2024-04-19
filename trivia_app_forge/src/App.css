@@ -5,17 +5,18 @@
   text-align: center;
 }
 
-.choice-box {
-    background-color: #4f545c;
-    border-radius: 8px;
-}
-
 Button {
     width: 100%;
 }
+
 
 .question-box-choices {
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+.disabled {
+    filter: brightness(60%);
+    pointer-events: none;
 }
