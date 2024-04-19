@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.choice-box {
+    background-color: #4f545c;
+    border-radius: 8px;
+}
+
+Button {
+    width: 100%;
+}
+
+.question-box-choices {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
